@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 public class DatabaseConnector {
   private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
   private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/third_lab?useUnicode=true&serverTimezone=UTC";
-  private static final String USERNAME = "kasyanka";
-  private static final String PASSWORD = "Relax2003";
+  private static final String USERNAME = "root";
+  private static final String PASSWORD = "root";
 
   private static Connection DATABASE_CONNECTION;
 
